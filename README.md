@@ -10,10 +10,6 @@ portainer/portainer-ce:latest
 
     mkdir Name; cd Name
 
-> CMD: Projektordner erstellen und hinein wechseln
-
-    mkdir Name; cd Name
-
 > CMD: git clone & git remote
 
     git clone https://github.com/tBrause/docker-portainer.git .; git remote remove origin;
