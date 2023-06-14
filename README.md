@@ -18,7 +18,9 @@ portainer/portainer-ce:latest
 
     git clone https://github.com/tBrause/docker-portainer.git .; git remote remove origin;
 
-> CMD: ocker-compose
+## Startet Portainer
+
+> CMD: docker-compose
 
     docker-compose up -d
 
