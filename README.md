@@ -20,9 +20,19 @@ portainer/portainer-ce:latest
 
     docker-compose up -d
 
+**Container Name**
+
+- con-portainer
+
+**Restart**
+
+- always
+
 **PORTS**
 
 - 9000
 - 9443
 
-    git clone https://github.com/tBrause/api-owm-project .; git remote remove origin; npm install; npm run build; npm run dev
+**Networks**
+
+- portainer-net
